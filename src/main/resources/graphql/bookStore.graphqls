@@ -1,0 +1,10 @@
+type Book {
+    id: ID!
+    author: String!
+    title: String!
+    pageCount: Int!
+}
+
+type Query {
+    availableBooks: [Book]!
+}
